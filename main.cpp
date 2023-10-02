@@ -27,7 +27,7 @@
 /* Includes ---------------------------------------------------------------- */
 #include "Microphone_PDM.h"
 #include "Particle.h"
-#include <_You_re_Muted__inferencing.h>
+#include <Photon_2_Keyword_keyword_spotting_inferencing.h>
 
 SerialLogHandler logHandler(LOG_LEVEL_INFO);
 SYSTEM_THREAD(ENABLED);
