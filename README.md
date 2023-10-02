@@ -13,6 +13,10 @@ Relay GND to Photon 2 GND
 Relay VCC to Photon VCC
 Relay Signal to Photon D3
 
+# Model training
+
+Create an account at https://edgeimpulse.com/, train your audio model and export as a Particle Library
+
 # VsCode
 
 For Windows, instructions are:
