@@ -43,12 +43,19 @@ If you get "Argument list too long" error, like I did for Windows and Linux, you
 # How to avoid Argument list too long error for Windows
 
 Download and install Docker Docker Desktop https://www.docker.com/products/docker-desktop/
+
 Download and install CLI Command Line Interface [(CLI) | Reference | Particle](https://docs.particle.io/reference/developer-tools/cli/)
+
 Extract Edge Impulse library into a folder (For this example Photon2)
+
 Run docker pull particle/buildpack-particle-firmware:5.5.0-p2
+
 Run docker run --name=AnyName -v C:\Users\R\Desktop\Photon2:/input -v C:\Users\R\Desktop\Photon2:/output -e PLATFORM_ID=32 particle/buildpack-particle-firmware:5.5.0-p2
+
 A firmware.bin file will be generated into the same folder
+
 Run particle usb list (get device ID for the next step)
+
 Run particle flash --local placeTheIdHere firmware.bin
 
 
