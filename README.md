@@ -1,3 +1,7 @@
+# Info
+
+https://docs.edgeimpulse.com/experts/audio-projects/voice-commands-particle-photon-2
+
 # Circuit
 
 PDA mic connections:
